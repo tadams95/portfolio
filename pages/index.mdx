@@ -4,11 +4,22 @@ title: About
 date: 2023-11-30
 ---
 
-# _Tyrelle Adams_
+import Image from 'next/image'
 
-What's up! I'm Ty and I'm a Full Stack Developer. 
-
-I'm passionate about building web and mobile apps.
+<div className="profile-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '2rem', marginBottom: '2rem' }}>
+  
+    <h1 style={{ flex: 1, textAlign: 'left' }}>_Tyrelle Adams_</h1>
+    <Image
+      src="/images/ProfileImage.png"
+      alt="Tyrelle Adams"
+      width={200}
+      height={200}
+      priority
+      className="profile-image rounded-md"
+      style={{ borderRadius: '50%' }}
+    />
+</div>
+Hello, I'm Ty and I'm a Full Stack Dev passionate about web and mobile apps.
 
 In the **Certificates** tab you'll find some of the tools I've learned to build with.
 
@@ -16,11 +27,11 @@ In the **Projects** tab you'll find some of the projects I've worked on.
 
 Lastly, in the **Posts** tab you'll find some of the blogs I've written.
 
-_Feel free to reach out using one of the resources below, later! ✌🏽_
+_Feel free to reach out using one of the resources below, later!_
 
 ---
 
-- Twitter: [@tyrelle_io](https://twitter.com/tyrelle_io)
+- Twitter: [@tyrelle_adams](https://twitter.com/tyrelle_adams)
 - GitHub: [@tadams95](https://github.com/tadams95)
 - Instagram: [@tyrelle.adams](https://instagram.com/tyrelle.adams)
 - Email: tyrelleadams28@gmail.com
