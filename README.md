@@ -1,34 +1,36 @@
-# Portfolio Starter Kit
+# Tyrelle Adams - Portfolio
 
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
+This is my personal portfolio website built with Next.js and deployed on Vercel. The site showcases my skills, projects, and certificates using a clean, minimal design.
 
-- Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
-- A beautiful theme included out of the box
-- Easily categorize posts with tags
-- Fast, optimized web font loading
+## Features
 
-## Configuration
+- **About**: Introduction and contact information
+- **Projects**: Showcase of my recent work including:
+  - RAGESTATE e-commerce site
+  - RAGESTATE React Native mobile app
+  - Kardashev.network (Next.js, Tailwind, Solidity)
+  - 4ex.ninja Forex signals service
 
-1. Update your name in `theme.config.js` or change the footer.
-1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
-1. Update the meta tags in `pages/_document.js`.
-1. Update the posts inside `pages/posts/*.md` with your own content.
+- **Certificates**: Collection of my technical certifications including:
+  - Web Development
+  - Node.js
+  - Three.js and TypeScript
+  - JavaScript Algorithms and Data Structures
+  - React (including TypeScript, Native)
+  - Blockchain Development (Ethereum, Solidity)
+  - Next.js
+  - Looker and LookML
+  - Algorithmic Trading
+  - Salesforce Development
 
-## Deploy your own
+- **Blog**: Technical writing and development insights
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Technology Stack
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/nextjs-portfolio-starter&project-name=portfolio&repository-name=portfolio)
+- **Framework**: Next.js
+- **Content**: MDX for content management
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example blog my-blog
-# or
-yarn create next-app --example blog my-blog
 ```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
