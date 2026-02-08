@@ -4,7 +4,7 @@ export default {
   darkMode: true,
   footer: (
     <small style={{ display: 'block', marginTop: 'auto' }}>
-      <time>{YEAR}</time> © Tyrelle Adams 🥷
+      Tyrelle Adams © <time>{YEAR}</time> 🥷
       <style jsx>{`
         a {
           float: right;
