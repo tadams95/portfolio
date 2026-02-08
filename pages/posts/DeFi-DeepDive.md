@@ -1,36 +1,35 @@
 ---
 title: DeFi Deep Dive
 date: 10/18/23
-description: Taking a deeper look at the state of DeFi towards the end of 2023 and going into 2024
+description: Risks, benefits, and outlook for DeFi heading into 2024.
 tag: DeFi
-author: You
+author: Tyrelle Adams
 ---
 
 # DeFi Deep Dive
 
-## I want to be more informed so this blog post will be a deeper dive into the current state of DeFi. As I gain more knowledge, I hope to pass on knowledge as well.
+## The current state of decentralized finance — risks, benefits, and where it's headed.
 
-### DeFi or short for decentralized finance can be viewed as an alternative to traditional financial services. In a sense it is blockchain-based borrowing/lending, saving, investing, trading, market-making and more. Smart contracts in a protocol replace the traditional functions of a bank or financial institution.
+Decentralized Finance (DeFi) replaces traditional banking with smart contract-based borrowing, lending, trading, and asset management on blockchains.
 
-### DeFi inherently has it's own sets of risks and benefits. Lets take a look at some of the risks with DeFi:
-##### 1) Smart Contract Vulnerabilities - These self-executing contracts have been exploited numerous times resulting in nearly $7B of losses in the past year (https://de.fi/rekt-database)
+### Risks
 
-##### 2) Regulatory Uncertainty - DeFi operates in a regulatory grey aread in many jurisdictions. Governments and regulatory bodies are still developing policies to govern DeFi, which could lead to legal challenges and compliance issues for DeFi projects and users.
+**Smart Contract Vulnerabilities** — Self-executing contracts have been exploited numerous times, resulting in nearly $7B in losses over the past year ([Rekt Database](https://de.fi/rekt-database)).
 
-##### 3) Interoperability and Fragmentation - DeFi projects are often built on different blockchains, which can lead to interoperability challenges and fragmentation. This can make it difficult for users to access and interact with DeFi services seamlessly.
+**Regulatory Uncertainty** — DeFi operates in a regulatory grey area. Governments are still developing policies, which creates legal risk for projects and users.
 
-#### This is not an exaustive list of the risks to DeFi but should provide an appropriate perspective to some of the challenges of DeFi.
+**Fragmentation** — Services scattered across multiple blockchains limit seamless user access and create interoperability challenges.
 
-### Next lets look at some of the benefits:
+### Benefits
 
-##### 1) Financial Inclusion - DeFi has the potential to provide financial services to people who are excluded from traditional banking systems. Individuals in underserved or unbanked regions can access DeFi services with just an internet connection and a wallet.
+**Financial Inclusion** — Unbanked populations can access financial services with only an internet connection and a wallet.
 
-##### 2) Innovation - DeFi has spurred significant innovation in the financial sector, including the development of new financial products, tokenization of assets, and novel forms of decentralized governance and decision-making.
+**Innovation** — DeFi has driven the development of new financial products, asset tokenization, and decentralized governance models.
 
-##### 3) Community-Led Governance - Many DeFi projects have decentralized governance structures, allowing users to have a say in the development and decision-making processes of the platform.
+**Community Governance** — Many projects give users direct say in development and decision-making.
 
-#### Overall, there is are more tailwinds rather than headwinds for the DeFi markets. There currently is ~$32.22B TVL in DeFi across all platforms according to https://defillama.com/.
+### Outlook
 
- #### In my opinion, as this space continues to be developed, users become more informed and there is more regulatory claririty, I would not be surprised to see the TVL hit $100B again and even up to $1T TVL. This will be a significant milestone to hit and stamp of approval for the entire crypto space.
+The tailwinds outweigh the headwinds. DeFi currently holds ~$32.22B TVL across all platforms ([DefiLlama](https://defillama.com/)). As the space matures and regulatory clarity improves, I expect TVL to reach $100B again — potentially $1T. That would be a defining milestone for the entire crypto space.
 
-> To be free is to have achieved your life. - Tennessee Williams
+> To be free is to have achieved your life. – Tennessee Williams

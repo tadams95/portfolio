@@ -2,9 +2,9 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Tyrelle Adams Portfolio Site',
-    description: 'Pretty much what the title says. Feel free to check out my projects.',
-    image: 'https://www.linkedin.com/in/ty-adams-325512135/'
+    title: 'Tyrelle Adams',
+    description: 'Software developer building at the intersection of web3, finance, and modern web technologies.',
+    image: '/images/ProfileImage.png'
   }
 
   return (
@@ -17,7 +17,7 @@ export default function Document() {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@yourname" />
+        <meta name="twitter:site" content="@tyrelle_adams" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
