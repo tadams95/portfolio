@@ -57,9 +57,96 @@ img.next-image {
 }
 
 .prose a {
-  color: #0074de;
+  color: #111827;
+  text-decoration: underline;
+}
+:root.dark .prose a {
+  color: #e5e7eb;
 }
 
 .nav-line .nav-link {
   color: #69778c;
+}
+:root.dark .nav-line .nav-link {
+  color: #9ca3af;
+}
+
+/* ASCII Wave Hero */
+.ascii-wave-hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.ascii-wave-pre {
+  position: absolute;
+  inset: -4px 0;
+  z-index: 0;
+  font-family: 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono',
+    Menlo, Consolas, monospace;
+  font-size: 10px !important;
+  line-height: 14px !important;
+  color: #000000;
+  user-select: none;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.prose .ascii-wave-pre {
+  background-color: transparent !important;
+  overflow: hidden !important;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.ascii-wave-content {
+  position: relative;
+  z-index: 1;
+}
+
+.ascii-wave-hero h1,
+.ascii-wave-hero img {
+  margin: 0 !important;
+}
+
+:root.dark .ascii-wave-pre {
+  color: #4f545e;
+}
+
+article {
+  min-height: 100vh;
+  display: flex !important;
+  flex-direction: column;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+article.prose > p {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+article.prose > hr {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+@media (max-width: 640px) {
+  .ascii-wave-pre {
+    font-size: 9px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .ascii-wave-pre {
+    font-size: 7px !important;
+  }
 }

@@ -1,9 +1,10 @@
 const YEAR = new Date().getFullYear()
 
 export default {
+  darkMode: true,
   footer: (
-    <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Tyrelle Adams 🥷🏽
+    <small style={{ display: 'block', marginTop: 'auto' }}>
+      <time>{YEAR}</time> © Tyrelle Adams 🥷
       <style jsx>{`
         a {
           float: right;
