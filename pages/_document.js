@@ -10,6 +10,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50' y='50' dominant-baseline='central' text-anchor='middle' font-size='80' font-weight='bold' font-family='system-ui,sans-serif'>T</text></svg>" />
         <meta name="robots" content="follow, index" />
         <meta name="description" content={meta.description} />
         <meta property="og:site_name" content={meta.title} />
